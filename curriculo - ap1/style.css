@@ -1,0 +1,106 @@
+*{  
+    /* reseta as medidas da pagina */
+    padding: 0; 
+    margin: 0 auto; 
+    box-sizing: border-box; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+body{  
+    /* aqui estamos definindo a cor de fundo usando o body para alterar a cor */
+    background-color: rgb(43, 43, 43);
+}
+.container{ 
+     /*medida total do container que vai simular nossa "folha" do curriclo 
+     altura: 1200px largura: 70% */
+    height: 1200px; 
+    width: 70%;
+} 
+.esquerda{  
+    /* aqui estamos definindo as medidas e cor do lado esquerdo do container */
+    width: 50%; 
+    height: 100%; 
+    background-color: black; 
+    float: left;  
+    color: white; 
+    padding: 60px;
+}  
+img{  
+    /* configurando formato da foto */
+    width: 280px; 
+    height: 280px;  
+    
+    border-radius: 50%; 
+    border: 6px solid greenyellow; 
+    display: block; 
+    margin: 0 auto;
+} 
+h1{ 
+    font-size: 44px;
+} 
+.perfil h2{ 
+    font-style: italic; 
+    color: greenyellow; 
+    font-weight: 400; 
+    font-size: 20px; 
+    margin-top: 10px; 
+    margin-bottom: 10px;
+} 
+.educacao h2 {  
+    margin-top: 25px; 
+    margin-bottom: 20px; 
+    color: greenyellow; 
+    font-style: italic;
+} 
+h3{  
+    font-weight: 400; /* grossura da fonte  */
+    font-style: italic;  
+    
+} 
+.infos p{  
+    margin-top: 10px; 
+    display: inline-block; 
+     
+}      
+.icone_e{  
+    margin-bottom: 12px;
+
+}
+     
+.barra{  
+    width: 140px; 
+    height: 10px;  
+    border-color: white solid 6px; 
+    background-color: aliceblue; 
+    border-radius: 10px; 
+    display: inline-block; 
+    
+    
+} 
+.progresso100{ 
+    width: 100%; 
+    height: 100%; 
+    background-color: greenyellow; 
+    border-radius: 10px; 
+    
+} 
+.progresso25{  
+    width: 25%; 
+    height: 100%;  
+    margin-right: 75%;
+    background-color: greenyellow; 
+    border-radius: 10px;
+} 
+span{ 
+    display: inline-block; 
+    width: 100px; 
+     
+}
+.direita{  
+    /* aqui estamos definindo as medidas e cor do lado direito o comando  
+    float faz o elemento flutuar para a esquerda */
+    width: 50%; 
+    height: 100%; 
+    background-color: white; 
+    float: left; 
+    padding: 80px 30px;
+} 
