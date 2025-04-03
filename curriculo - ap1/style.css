@@ -7,7 +7,7 @@
 } 
 body{  
     /* aqui estamos definindo a cor de fundo usando o body para alterar a cor */
-    background-color: rgb(43, 43, 43);
+    background-color: rgb(54, 54, 54);
 }
 .container{ 
      /*medida total do container que vai simular nossa "folha" do curriclo 
@@ -19,7 +19,7 @@ body{
     /* aqui estamos definindo as medidas e cor do lado esquerdo do container */
     width: 50%; 
     height: 100%; 
-    background-color: black; 
+    background-color: rgb(19, 19, 19); 
     float: left;  
     color: white; 
     padding: 60px;
@@ -35,7 +35,7 @@ img{
     margin: 0 auto;
 } 
 h1{ 
-    font-size: 44px;
+    font-size: 35px;
 } 
 .perfil h2{ 
     font-style: italic; 
@@ -46,24 +46,33 @@ h1{
     margin-bottom: 10px;
 } 
 .educacao h2 {  
+    font-size: 20px;
     margin-top: 25px; 
     margin-bottom: 20px; 
     color: greenyellow; 
-    font-style: italic;
-} 
+}  
+.idioma h2 {  
+    font-size: 20px; 
+    margin-top: 25px; 
+    margin-bottom: 20px; 
+    color: greenyellow;  
+}
 h3{  
     font-weight: 400; /* grossura da fonte  */
     font-style: italic;  
     
 } 
-.infos p{  
+.contatos p{  
     margin-top: 10px; 
     display: inline-block; 
      
 }      
 .icone_e{  
     margin-bottom: 12px;
-
+} 
+.icone_i{ 
+    margin-top: 20px; 
+    padding-right: 12px;
 }
      
 .barra{  
@@ -72,9 +81,7 @@ h3{
     border-color: white solid 6px; 
     background-color: aliceblue; 
     border-radius: 10px; 
-    display: inline-block; 
-    
-    
+    display: inline-block;  
 } 
 .progresso100{ 
     width: 100%; 
@@ -103,4 +110,45 @@ span{
     background-color: white; 
     float: left; 
     padding: 80px 30px;
+} 
+.experiencia h2 { 
+    font-size: 20px;
+    margin-top: 25px; 
+    margin-bottom: 20px; 
+    color: rgb(0, 0, 0); 
+    margin-left: 0;
+}  
+.experiencia h3 { 
+    margin-top: 13px; 
+     
+    font-size: 20px;
+}  
+.experiencia h4{ 
+    font-style: normal; 
+    font-size: 15px; 
+    font-weight:400 ;
+}
+.linha {  
+    height: 1px; 
+    width: 90%; 
+    background-color: black; 
+    margin-left: 0;   
+} 
+.experiencia p { 
+    padding: 15px;    
+} 
+.habilidades h2 { 
+    font-size: 20px;
+    margin-top: 25px; 
+    margin-bottom: 20px; 
+    color: rgb(0, 0, 0); 
+    margin-left: 0; 
+} 
+.barradireita{  
+    width: 140px; 
+    height: 10px;  
+    border-color: white solid 6px; 
+    background-color: rgb(176, 176, 176); 
+    border-radius: 10px; 
+    display: inline-block;  
 } 
