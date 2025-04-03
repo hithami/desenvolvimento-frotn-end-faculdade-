@@ -65,17 +65,16 @@ h3{
 .contatos p{  
     margin-top: 10px; 
     display: inline-block; 
-     
 }      
-.icone_e{  
+.icone_e{   /* medida icone e-mail */
     margin-bottom: 12px;
 } 
-.icone_i{ 
+.icone_i{  /*medida icone instagram  */
     margin-top: 20px; 
     padding-right: 12px;
 }
      
-.barra{  
+.barra{  /* criando barra de habilidades lado esquerdo */
     width: 140px; 
     height: 10px;  
     border-color: white solid 6px; 
@@ -83,14 +82,14 @@ h3{
     border-radius: 10px; 
     display: inline-block;  
 } 
-.progresso100{ 
+.progresso100{  /* preenchimento da barra 100% */
     width: 100%; 
     height: 100%; 
     background-color: greenyellow; 
     border-radius: 10px; 
     
 } 
-.progresso25{  
+.progresso25{ /* preenchimento da barra 25% */ 
     width: 25%; 
     height: 100%;  
     margin-right: 75%;
@@ -120,7 +119,6 @@ span{
 }  
 .experiencia h3 { 
     margin-top: 13px; 
-     
     font-size: 20px;
 }  
 .experiencia h4{ 
@@ -128,7 +126,7 @@ span{
     font-size: 15px; 
     font-weight:400 ;
 }
-.linha {  
+.linha {   /* linha de divisão lado direito */
     height: 1px; 
     width: 90%; 
     background-color: black; 
@@ -144,7 +142,7 @@ span{
     color: rgb(0, 0, 0); 
     margin-left: 0; 
 } 
-.barradireita{  
+.barradireita{   /* barra de habilidades lado direito  */
     width: 140px; 
     height: 10px;  
     border-color: white solid 6px; 
