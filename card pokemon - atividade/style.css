@@ -1,0 +1,105 @@
+*{ 
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box;
+}  
+body{ 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    background-color: rgb(47, 47, 47);
+}
+
+/* Isso significa que a área branca será toda a tela, e o .card será posicionado exatamente no centro. */ 
+
+main{ 
+    display: flex; /* Ativa o modelo Flexbox */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center; /* Centraliza os itens verticalmente */
+    height: 100vh;/* Faz com que o <main> ocupe 100% da altura da tela */
+} 
+.card{ 
+    background-color: rgb(3, 201, 215); 
+    width: 600px; 
+    height: 300px; 
+    border-radius: 30px 60px;  
+    display: flex;   
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.512); 
+} 
+.esquerda{ 
+    width: 50%; 
+    height: 100%; 
+    margin-left: auto;
+}  
+.esquerda img{ 
+    border-radius: 20px 40px; 
+    width: 80%;  
+    margin-left: 9%; 
+    margin-top: 8%;
+}
+.direita{ 
+    width: 50%; 
+    height: 100%; 
+    margin-right: auto;  
+     
+} 
+.direita h1{ 
+    color: rgb(3, 91, 107); 
+    margin-top: 8%;  
+    margin-left: 4%;
+    
+    
+} 
+.infos{ 
+    height: 57%; 
+    width: 80%; 
+    margin-top: 1%; 
+    margin-bottom: 2%;  
+    margin-left: 4%; 
+    color: white; 
+    font-size: 20px; 
+    padding-top: 10px; 
+}  
+.infos p{ 
+    margin-bottom: 8px;
+}
+footer{ 
+     
+    width: 100%; 
+    height: 10%; 
+    border-bottom-right-radius: 25px ; 
+    display: flex;
+} 
+.tipo { 
+    background-color: rgba(41, 127, 255, 0.497); 
+    width: 30%;  
+    height: 90%; 
+     
+    border-radius: 10px; 
+    font-size: 15px; 
+    display: flex; 
+    color: white; 
+    align-items: center; 
+    justify-content: center; 
+      
+}   
+.fraqueza1 { 
+    background-color: rgba(254, 239, 35, 0.936); 
+    width: 30%;  
+    height: 90%;  
+    margin-left: 2%; 
+    border-radius: 10px; 
+    font-size: 12px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+} 
+.fraqueza2 { 
+    background-color: rgba(37, 178, 72, 0.921); 
+    width: 30%;  
+    height: 90%; 
+    margin-left: 2%; 
+    border-radius: 10px; 
+    font-size: 12px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
